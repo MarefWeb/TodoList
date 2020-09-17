@@ -1,0 +1,53 @@
+.todoItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  border: 2px solid rgb(184, 184, 184);
+  border-radius: 5px;
+  padding: .9rem .8rem;
+  margin-bottom: 4px;
+}
+
+.todoItem div {
+  display: flex;
+}
+
+.todoItem span {
+  cursor: pointer;
+}
+
+.todoItem.done span {
+  text-decoration: line-through;
+}
+
+.todoItem button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  width: 30px;
+  height: 30px;
+  transition: 0.1s linear;
+  margin-left: 10px;
+}
+
+.todoItem button svg {
+  width: 20px;
+  height: 20px;
+  fill: #fff;
+}
+
+.todoItem button:hover {
+  background-color: #fff;
+}
+
+.todoItem button:hover svg {
+  fill: #000;
+}
+
+.todoItem.important span {
+  font-weight: 700;
+  color: rgb(255, 185, 185);
+}

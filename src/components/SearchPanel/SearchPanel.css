@@ -1,0 +1,43 @@
+.searchPanel {
+  display: flex;
+  margin: 20px 0 40px;
+}
+
+.searchPanel input {
+  outline: none;
+  color: #fff;
+  border: 2px solid rgb(184, 184, 184);
+  background: transparent;
+  border-radius: 10px;
+  padding: .4rem .8rem;
+  margin-right: 5px;
+}
+
+.searchPanel button {
+  outline: none;
+  cursor: pointer;
+  border: 2px solid rgb(184, 184, 184);
+  background: transparent;
+  border-radius: 10px;
+  padding: .4rem .8rem;
+  color: rgb(228, 228, 228);
+  margin-left: 5px;
+  transition: 0.1s linear;
+}
+
+.searchPanel button:hover {
+  border: 2px solid #fff;
+  background-color: #fff;
+  color: #0f0f0f;
+}
+
+.searchPanel button.active {
+  border: 2px solid #aeaeae;
+  background-color: #acacac;
+  color: #0f0f0f;
+}
+
+.searchPanel button.active:hover {
+  border: 2px solid rgb(184, 184, 184);
+  background: #fff;
+}

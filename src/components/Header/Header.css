@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.header h1 {
+  color: #fff;
+  text-align: center;
+  margin: 0;
+}
+
+.header p {
+  color: #6d6d6d;
+  font-weight: 700;
+  margin: 0;
+}
